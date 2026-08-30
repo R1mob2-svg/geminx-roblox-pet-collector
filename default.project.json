@@ -1,0 +1,30 @@
+{
+  "name": "GeminX-Pet-Collector",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "GeminX": {
+        "_id": "rbxassetid://1",
+        "Shared": {
+          "$path": "src/shared"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GeminXServer": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "GeminXClient": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
